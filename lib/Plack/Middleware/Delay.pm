@@ -51,7 +51,7 @@ __END__
       $app;
   };
 
-  ## or, if you're in an AnyEvent-based PSGI server...
+  # or, if you're in an AnyEvent-based PSGI server...
 
   builder {
       enable 'Debug', delay => 5, sleep_fn => sub {
