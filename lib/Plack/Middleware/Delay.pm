@@ -72,7 +72,7 @@ __END__
 =head1 DESCRIPTION
 
 This middleware imposes an artifical delay on requests, for purposes of
-testing.  It could also be used to implement http://xkcd.com/862/.
+testing.  It could also be used to implement L<http://xkcd.com/862/>.
 
 =head1 OPTIONS
 
