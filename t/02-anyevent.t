@@ -6,8 +6,7 @@ use Plack::Builder;
 use Plack::Loader;
 use Test::More tests => 4;
 use Test::TCP qw(test_tcp);
-
-# Needs Twiggy, Test::TCP, AnyEvent::HTTP
+use Time::HiRes qw(time);
 
 sub run_test {
     my ( $app ) = @_;
