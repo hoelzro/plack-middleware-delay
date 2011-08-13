@@ -54,7 +54,7 @@ __END__
   # or, if you're in an AnyEvent-based PSGI server...
 
   builder {
-      enable 'Debug', delay => 5, sleep_fn => sub {
+      enable 'Delay', delay => 5, sleep_fn => sub {
         my ( $delay, $invoke ) = @_;
 
         my $timer;
